@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "snap-project"
+    }
+  },
+  "defaultProject": "snap-project",
+  "cli": {
+    "analytics": "10279226-01ab-4847-add7-5038d256e0db"
+  }
 }
