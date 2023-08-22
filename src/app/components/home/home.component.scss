@@ -1,0 +1,60 @@
+main {
+  padding: 0 1em 0 10em;
+  gap: 6em;
+}
+
+main .left {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+
+main .left h1 {
+  font-size: 4.5em;
+  margin-top: 1em;
+}
+
+main .left h1 span {
+  display: block;
+}
+
+main .left p {
+  width: 70%;
+  font-size: 18px;
+  color: var(--gray);
+  line-height: 0.75cm;
+}
+
+main .left a {
+  width: fit-content;
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  color: var(--white);
+  padding: 1em 1.5em;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+main .left a:hover {
+  background-color: transparent;
+  color: var(--black);
+}
+
+main .left aside {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  margin-top: 3em;
+}
+
+main .right img {
+  width: 400px;
+  margin-top: 2em;
+}
+
+main .right {
+  display: grid;
+  place-items: center;
+}

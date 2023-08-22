@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+  transition: 0.3s ease-in-out;
+}
+:root {
+  --white: hsl(0, 0%, 98%);
+  --gray: hsl(0, 0%, 41%);
+  --black: hsl(0, 0%, 8%);
+}
+
+a {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+header,
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+header .left a:hover,
+header .right a:hover {
+  color: var(--black);
+}
